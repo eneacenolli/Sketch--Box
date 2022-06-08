@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(164, 164, 231);
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.contenier {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 400px;
+  border: solid black;
+  margin: 60px auto 30px auto;
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.nr_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.boxView {
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  border: solid blue;
+}
+
+.div_over {
+  background-color: black;
+  color: black;
+}
